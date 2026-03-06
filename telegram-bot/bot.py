@@ -9,9 +9,9 @@ import google.generativeai as genai
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 
-BOT_TOKEN   = os.getenv("TELEGRAM_BOT_TOKEN", "")
-GEMINI_KEY  = os.getenv("GEMINI_API_KEY", "")
-ALLOWED_IDS = set(os.getenv("ALLOWED_CHAT_IDS", "").split(","))
+BOT_TOKEN   = os.getenv("8623366248:AAEHWARidZ07Uulnt_h0_-o7fr5xkKkw4lw")
+GEMINI_KEY  = os.getenv("AIzaSyBIJxNK-bYXSqn7lMSIA-hPUrEKaEYEGGY")
+ALLOWED_IDS = set(os.getenv("1253881226").split(","))
 DATA_FILE   = os.path.join(os.path.dirname(__file__), "data.json")
 
 logging.basicConfig(level=logging.INFO)
